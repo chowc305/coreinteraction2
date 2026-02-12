@@ -64,7 +64,7 @@ h2{
 .page{
     position: relative;
     margin-top: 100vh;   /* hides content at load */
-    background: white;
+    background: rgb(250, 243, 234);
     min-height: 200vh;   /* just for testing scroll */
 }
 
