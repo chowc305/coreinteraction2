@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    font-family: "Spline Sans Mono", monospace;
+     font-weight: normal;
+     
+}
+
+body{
+    background-color: rgb(250, 243, 234);
+}
+
+h4{
+    font-size: 20px;
+    line-height: 2em;
+}
+
+h3{
+    font-size: 28px;
+    line-height: 2em;
+}
+
+p{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 2em;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    justify-content: space-between;
+    border: solid 1px black;
+    align-items: baseline;
+    
+    
+}
+
+.header a{
+    text-decoration:none;
+    color:black;
+}
+
+.header a:hover{
+    text-decoration:underline;
+    color:black;
+    cursor:pointer;
+}
+
+.page{
+    position: relative;
+}
+
+.top-boxes{
+    display:grid;
+    grid-template-columns: 39em 49em;
+    gap:0;
+
+}
+
+.top-left{
+    grid-column: 1;
+     padding: 2em;
+    border: solid 1px black;
+}
+
+.top-left:hover{
+    background-color:#B09C9C;
+}
+
+.top-right{
+    grid-column: 2;
+    
+}
+
+.box1{
+padding: 2em;
+    border: solid 1px black;
+}
+
+.box1:hover{
+    background-color:#B09C9C;
+}
+
+.box2{
+padding: 2em;
+    border: solid 1px black;
+}
+
+.box2:hover{
+    background-color:#B09C9C;
+}
+
+.box2 a{
+    color:black;
+}
+
+.bottom-box{
+    padding: 2em;
+    border: solid 1px black;
+}
+
+.bottom-box:hover{
+    background-color:#B09C9C;
+}
+
+.bottom-box a{
+    color:black;
+}
+
+.popup{
+    position:fixed;
+    inset:0;                
+    display:none;
+    z-index:100;
+   
+}
+
+
+.popup:target{
+    display:block;
+}
+
+.popup-box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:#366052;
+    border:1px solid black;
+    padding:2em 3em;
+    width: 80em;
+    text-align: center;
+}
+
+.popup-box a{
+    color:black;
+}
+
+.popup-box2{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:#8F463A;
+    border:1px solid black;
+    padding:2em 3em;
+    width: 80em;
+    
+}
+
+.popup-box2 a{
+  
+  color:#D4B57F; 
+}

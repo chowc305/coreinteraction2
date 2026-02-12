@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    font-family: "Spline Sans Mono", monospace;
+     font-weight: normal;
+     
+}
+
+body{
+    background-color: rgb(250, 243, 234);
+}
+
+h4{
+    font-size: 20px;
+    line-height: 2em;
+}
+
+h3{
+    font-size: 28px;
+    line-height: 2em;
+}
+
+p{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 2em;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    justify-content: space-between;
+    border: solid 1px black;
+    align-items: baseline;
+    
+    
+}
+
+.header a{
+    text-decoration:none;
+    color:black;
+}
+
+.header a:hover{
+    text-decoration:underline;
+    color:black;
+    cursor:pointer;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.bigbox{
+    display: flex;
+    flex-direction: row;
+     align-items:stretch; 
+}
+
+.left-boxes{
+    display: flex;
+    flex-direction: column;
+    width: 50em;
+}
+
+.left1{
+    padding: 2em;
+    border: black solid 1px;
+}
+
+.left1:hover{
+    background-color: #A0BED3;
+}
+
+.left2{
+    padding: 2em;
+    border: black solid 1px;
+}
+
+.left2:hover{
+    background-color:#A0BED3;
+}
+
+.left2 a{
+    color:black;
+}
+
+.left3{
+    padding: 2em;
+    border: black solid 1px;
+}
+
+.left3:hover{
+    background-color:#A0BED3;
+}
+
+.right-boxes{
+    display: flex;
+    flex-direction: column;
+    width:40em;
+    height:100%;
+    flex: 1;
+}
+
+.right1{
+    padding: 2em;
+    border: black solid 1px;
+}
+
+.right1:hover{
+    background-color:#A0BED3;
+}
+
+.right2{
+    padding: 2em;
+    border: black solid 1px;
+    align-items: end; 
+    height: 328px;   
+}
+
+.right2:hover{
+    background-color:#A0BED3;
+}
+
+.right2 a{
+    color:black;
+}
+
+.hidden{
+    padding: 2em;
+    border: black solid 2px;
+    width: fit-content;
+    position: absolute;
+    top: 43%;
+    left:50%;
+    background-color: rgb(250, 243, 234);
+    z-index:100;
+    text-decoration: none;
+    color: black;
+   opacity:0;
+    visibility:hidden;
+    pointer-events:none;
+
+    transition:opacity .4s ease;
+}
+
+.hidden:hover{
+    background-color: ##A0BED3;
+};
+
+#link{
+    color:black;
+}
+.hidden a{
+color: black;
+}
+
+.hidden:target{
+    opacity:1;
+    visibility:visible;
+    pointer-events:auto;
+}

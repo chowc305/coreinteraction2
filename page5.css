@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    font-family: "Spline Sans Mono", monospace;
+     font-weight: normal;
+     
+}
+
+body{
+    background-color: rgb(250, 243, 234);
+}
+
+h4{
+    font-size: 20px;
+    line-height: 2em;
+}
+
+h3{
+    font-size: 28px;
+    line-height: 2em;
+}
+
+p{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 2em;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    justify-content: space-between;
+    border: solid 1px black;
+    align-items: baseline;
+    
+    
+}
+
+.header a{
+    text-decoration:none;
+    color:black;
+}
+
+.header a:hover{
+    text-decoration:underline;
+    color:black;
+    cursor:pointer;
+}
+
+.top-boxes{
+    display:grid;
+    grid-template-columns: 39em 49em;
+}
+
+.top1{
+    padding: 2em;
+    border: 1px black solid;
+}
+
+.top1:hover{
+    background-color:#B37A41;
+}
+
+.top2{
+    padding: 2em;
+    border: 1px black solid;
+}
+
+.top2:hover{
+    background-color:#B37A41;
+}
+
+.midbox{
+ padding: 2em;
+    border: 1px black solid;   
+}
+
+.midbox:hover{
+    background-color:#B37A41;
+}
+
+.bottom-boxes{
+    display:grid;
+    grid-template-columns: 46em 42em;
+}
+
+.bottom1{
+    padding: 2em;
+    border: 1px black solid;
+    grid-column:1;
+}
+
+.bottom1:hover{
+    background-color:#B37A41;
+}
+
+.bottom2{
+    padding: 2em;
+    border: 1px black solid;
+    grid-column: 2;
+}
+
+.bottom2:hover{
+    background-color:#B37A41;
+}
+
+.bottom1 a{
+    color:black;
+}

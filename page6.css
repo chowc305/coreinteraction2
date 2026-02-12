@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    font-family: "Spline Sans Mono", monospace;
+     font-weight: normal;
+     
+}
+
+body{
+    background-color: rgb(250, 243, 234);
+}
+
+h4{
+    font-size: 20px;
+    line-height: 2em;
+}
+
+h3{
+    font-size: 28px;
+    line-height: 2em;
+}
+
+p{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 2em;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    justify-content: space-between;
+    border: solid 1px black;
+    align-items: baseline;
+    
+    
+}
+
+.header a{
+    text-decoration:none;
+    color:black;
+}
+
+.header a:hover{
+    text-decoration:underline;
+    color:black;
+    cursor:pointer;
+}
+
+.top-box{
+    padding: 2em;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.top-box:hover{
+background-color:#D4B57F;
+}
+
+.mid-box{
+    display:grid;
+    grid-template-columns: 44em 44em;
+
+}
+
+.box1{
+    padding: 2em;
+    border: 1px solid black;
+}
+
+.box1:hover{
+background-color:#D4B57F;
+}
+
+.box2{
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.box2:hover{
+background-color:#D4B57F;
+}
+
+.bottom-box{
+     border: 1px solid black;
+    padding: 2em;
+    text-align: center;
+}
+
+.bottom-box:hover{
+background-color:#D4B57F;
+}
+
+.bottom-box a{
+    color:black;
+}
