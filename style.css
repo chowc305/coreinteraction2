@@ -11,9 +11,15 @@ body{
 
 .title{
     display: flex;
-    padding:50%;
+    flex-direction: column;
+    gap:0px;
+    padding:20em;
     text-align: center;
     border: black 1px solid;
+}
+
+.title *{
+    margin:0;
 }
 
 h4{
@@ -33,4 +39,17 @@ p{
 h2{
     font-size: 30px;
     line-height: 2em;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.page a{
+    border: black 1px solid;
+    text-align: center;
+    padding-top:0.6em;
+    padding-bottom: 0.6em;
 }

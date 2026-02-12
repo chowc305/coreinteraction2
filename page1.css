@@ -5,7 +5,6 @@
      font-weight: normal;
      
 }
-
 .landing {
     position: fixed;
     top: 0;
@@ -17,8 +16,8 @@
 }
 
 .landing h4{
-    text-align: center;
     margin-top:25%;
+    text-align: center;
     color:rgb(250, 243, 234);
     filter:blur(1px);
 
@@ -35,6 +34,8 @@
 body{
     margin:0;
 }
+
+
 h4{
     font-size: 20px;
     line-height: 2em;
@@ -77,74 +78,69 @@ h2{
     cursor:pointer;
 }
 
-.page{
-    position:relative;
 
+.top{
+    display: flex;
+    flex-direction: row;
 }
 
-.top-boxes{
-    display:grid;
-    grid-template-columns: 34em 55em;
+.top-left{
+   padding: 2em;
+    border: black solid 1px;
 }
 
-.left-boxes{
-grid-column: 1;
-
+.top-left:hover{
+    background-color:chocolate;
+    
 }
 
-.left1{
-     border: solid 1px black;
-     padding: 2em;
-     text-align:center;
+.top-right{
+    padding: 2em;
+    border: black solid 1px;
 }
 
-.left1:hover{
-    background-color: #8F463A;
+.top-right:hover{
+    background-color:chocolate;
+}
+.mid-box{
+    padding: 2em;
+    border: black solid 1px;
+    
 }
 
-.left2{
-    border: solid 1px black;
-     padding: 2em;
-     text-align:center;
+.mid-box:hover{
+    background-color:chocolate;
 }
 
-.left2:hover{
-    background-color: #8F463A;
+.bottom{
+    display: flex;
+    flex-direction: row;
 }
 
-.left3{
-    border: solid 1px black;
-     padding: 2em;
-     height:10.3em;
-     display: flex;
-     align-items:center;
+.bottom-left{
+padding: 2em;
+    border: black solid 1px;
+width:40em;
+margin: 0 auto;
 }
 
-.left3:hover{
-    background-color: #8F463A;
+.bottom-left:hover{
+    background-color:chocolate;
 }
 
-.right-boxes{
-grid-column:2;
+.bottom-right{
+padding: 2em;
+    border: black solid 1px;
+    width:60em;
 }
 
-.right1{
-    border: solid 1px black;
-     padding: 2em;
+.bottom-right:hover{
+    background-color:chocolate;
+    cursor: pointer;
 }
 
-.right1:hover{
-    background-color: #8F463A;
-}
-.right2{
-    border: solid 1px black;
-     padding: 2em;
-     display:flex;
-     align-items: flex-end;
-     background-color: rgb(250, 243, 234);
-}
-.right2:hover{
-    background-color: #8F463A;
+.bottom-right a{
+    color:black;
 }
 
 .popup{
@@ -169,65 +165,65 @@ grid-column:2;
     border:1px solid black;
     padding:2em 3em;
     width: 80em;
-    text-align: center;
+    /* max-width:100%; */
 }
 
 .popup-box a{
     color:black;
-    text-decoration:none;
-}
-
-.popup-box a:hover{
-    text-decoration:underline;
+    text-decoration: none;
 }
 
 .popup-box2 a{
-    color:black;
-    text-decoration:none;
-}
-
-.popup-box2 a:hover{
-    text-decoration:underline;
+  color:black;  
+  text-decoration: none;
 }
 
 .popup-box3 a{
-    color:black;
-    text-decoration:none;
-}
-
-.popup-box3 a:hover{
-    text-decoration:underline;
+  color:black; 
+  text-decoration: none; 
 }
 
 .popup-box4 a{
+  color:black; 
+  text-decoration: none; 
+}
+
+.popup-box a:hover{
     color:black;
-    text-decoration:none;
+    text-decoration: underline;
+}
+
+.popup-box2 a:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+.popup-box3 a:hover{
+    color:black;
+    text-decoration: underline;
 }
 
 .popup-box4 a:hover{
-    text-decoration:underline;
-}
-
-.popup-box5 a{
     color:black;
-    text-decoration:none;
+    text-decoration: underline;
 }
 
-.popup-box5 a:hover{
-    text-decoration:underline;
-}
+
+
+
+
+
+
 
 .popup-box2{
     position:absolute;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    background:#8F463A;
+    background:rgb(105, 71, 71);
     border:1px solid black;
     padding:2em 3em;
-    width: 80em;
-    text-align: center;
-    
+
 }
 
 .popup-box3{
@@ -235,11 +231,10 @@ grid-column:2;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    background:#8F463A;
+    background: #B37A41;
     border:1px solid black;
     padding:2em 3em;
-    width: 80em;
-    
+   
 }
 
 .popup-box4{
@@ -247,26 +242,10 @@ grid-column:2;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    background:#8F463A;
-    border:1px solid black;
-    padding:2em 3em;
-    width: 80em;
-    
-}
-
-.popup-box5{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    background:#8F463A;
+    background: #8F463A;
     border:1px solid black;
     padding:2em 3em;
     width: 80em;
     text-align: center;
-    
-}
-
-a{
-    color:black;
+   
 }
