@@ -25,16 +25,10 @@
     animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
-	animation-duration: 1.2;
+	animation-duration: 1.2s;
 
 }
 
-#fade{
-     animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 1.2;
-}
 
 @keyframes fadeInOpacity {
 	0% {
@@ -44,6 +38,7 @@
 		opacity: 1;
 	}
 }
+
 .page{
     position: relative;
     
@@ -111,8 +106,7 @@ background-color:#D4B57F;
 
 .mid-box{
     display:grid;
-    grid-template-columns: 44em 44em;
-
+    grid-template-columns: auto auto;
 }
 
 .box1{

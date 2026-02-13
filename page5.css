@@ -94,7 +94,7 @@ h2{
 
 .top-boxes{
     display:grid;
-    grid-template-columns: 39em 49em;
+    grid-template-columns: auto auto;
 }
 
 .top1{

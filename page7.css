@@ -182,7 +182,7 @@ grid-column:2;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    background:#366052;
+    background:#8F463A;
     border:1px solid black;
     padding:2em 3em;
     width: 80em;
@@ -260,7 +260,7 @@ grid-column:2;
     border:1px solid black;
     padding:2em 3em;
     width: 80em;
-    
+    text-align: center;
 }
 
 .popup-box4{
@@ -272,7 +272,7 @@ grid-column:2;
     border:1px solid black;
     padding:2em 3em;
     width: 80em;
-    
+    text-align: center;
 }
 
 .popup-box5{
