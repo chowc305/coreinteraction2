@@ -38,7 +38,11 @@
 		opacity: 1;
 	}
 }
+.landing h4:hover{
+  
+    text-shadow: 0 0 10px white;
 
+}
 .page{
     position: relative;
     

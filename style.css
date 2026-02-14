@@ -77,12 +77,12 @@ h2{
   #pg2:hover{
     text-decoration: none;
     color:black;
-    background-color: #B09C9C;
+    background-color: #B37A41;
  }
   #pg3:hover{
     text-decoration: none;
     color:black;
-    background-color: #B09C9C;
+    background-color: #D4B57F;
  }
   #pg4:hover{
     text-decoration: none;
@@ -92,12 +92,12 @@ h2{
   #pg5:hover{
     text-decoration: none;
     color:black;
-    background-color: #B09C9C;
+    background-color: #B37A41;
  }
   #pg6:hover{
     text-decoration: none;
     color:black;
-    background-color: #B09C9C;
+    background-color: #D4B57F;
   }
    #pg7:hover{
     text-decoration: none;
@@ -107,5 +107,12 @@ h2{
   #pg8:hover{
     text-decoration: none;
     color:black;
-    background-color: #B09C9C;
+    background-color: #8F463A;
+ }
+
+ button{
+    height:3em;
+    color:rgb(250, 243, 234);
+    background-color:black;
+    cursor:pointer;
  }

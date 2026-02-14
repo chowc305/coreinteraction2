@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    font-family: "Spline Sans Mono", monospace;
+     font-weight: normal;
+     
+}
+body{
+    background-color: black;
+}
+
+div{
+    
+    cursor: pointer;
+    display: flex;
+    position: relative;
+}
+
+h4{
+    filter:blur(1px);
+    margin-top:23em;
+    margin-left: 42em;
+}
+
+h4:hover{
+    text-shadow: 0 0 10px white;
+}
+
+a{
+color:#faf3ea;
+text-decoration: none;
+}

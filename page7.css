@@ -37,6 +37,12 @@
 		opacity: 1;
 	}
 }
+
+.landing h4:hover{
+  
+    text-shadow: 0 0 10px white;
+
+}
 .page{
     position: relative;
     
@@ -283,7 +289,7 @@ grid-column:2;
     background:#8F463A;
     border:1px solid black;
     padding:2em 3em;
-    width: 80em;
+    width: 40em;
     text-align: center;
     
 }

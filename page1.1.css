@@ -27,6 +27,12 @@
 
 }
 
+.landing h4:hover{
+  
+    text-shadow: 0 0 10px white;
+
+}
+
 @keyframes fadeInOpacity {
 	0% {
 		opacity: 0;
